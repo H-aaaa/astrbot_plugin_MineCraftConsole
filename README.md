@@ -7,9 +7,11 @@
 >
 > 已测试 Spigot1.8.8 及 Spigot1.21.11
 >
->MineCraft Rcon的协议不改的话 则适配版本为拥有Rcon的MineCraft版本
+> MineCraft Rcon的协议不改的话 则适配版本为拥有Rcon的MineCraft版本
 >
 > 插件目前仍处于开发阶段，无法 100% 保证稳定性与可用性。
+>
+> 若有bug请提issues或联系我 QQ 2139145308
 
 ---
 

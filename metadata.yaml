@@ -1,6 +1,6 @@
 name: astrbot_plugin_minecraftconsole
 display_name: MineCraft控制台
 desc: 使用Rcon发送命令至MC
-version: v1.0.0
+version: 1.0.0
 author: H_aaa
 repo: https://github.com/H-aaaa/astrbot_plugin_minecraftconsole

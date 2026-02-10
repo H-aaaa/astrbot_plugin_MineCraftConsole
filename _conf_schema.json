@@ -1,0 +1,38 @@
+{
+  "enabled": {
+    "type": "bool",
+    "description": "启用 Minecraft RCON 控制台",
+    "default": true
+  },
+  "admins": {
+    "type": "list",
+    "description": "允许使用 /mc-command 的管理员列表",
+    "default": [111, 222, 333]
+  },
+  "rcon_host": {
+    "type": "string",
+    "description": "RCON 服务器地址",
+    "default": "127.0.0.1"
+  },
+  "rcon_port": {
+    "type": "int",
+    "description": "RCON 服务器端口",
+    "default": 25575
+  },
+  "rcon_password": {
+    "type": "string",
+    "description": "RCON 密码",
+    "hint": "对应 server.properties 的 rcon.password",
+    "default": ""
+  },
+  "timeout": {
+    "type": "float",
+    "description": "超时时间(秒)",
+    "default": 5
+  },
+  "max_output": {
+    "type": "int",
+    "description": "聊天回显最大长度（超过则截断）",
+    "default": 1500
+  }
+}
